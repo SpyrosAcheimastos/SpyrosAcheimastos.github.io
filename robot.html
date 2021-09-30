@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Spyros Acheimastos - Robot</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+
+		<!-- Custom by Spyros   id="border_rad"     -->
+		<style>
+			.Colour-Palete{
+				background: #5e42a6;
+				background: #b74e91;
+				background: #312450;
+			}
+
+			.my-center {
+				margin: 0 auto; 
+				width: 100%;
+				display: block;
+				padding-bottom: 30px;
+			}
+				
+
+			h3 {
+				font-size: 1.15em;	
+			}
+			
+			.item1 {
+				/*background: LightSkyBlue;*/
+				grid-area: grid_header;
+				text-align: center;
+				padding-top: 5px;
+			}
+
+			.item2 {
+				/*background: LightSalmon;*/
+				grid-area: grid_image;
+			}
+
+			.item3 {
+				/*background: PaleTurquoise;*/
+				grid-area: grid_content;
+				padding-top: 5px;
+				/*text-align: left;*/
+				margin: auto;
+				
+			}
+
+			.border_rad {
+				border-radius: 20px;
+				/*box-shadow: 0 10px 20px rgba(0,0,0,0.29), 0 5px 15px rgba(0,0,0,0.33);*/
+				box-shadow: 8px 8px 8px 1px rgba(0,0,0,0.33), -8px 8px 8px 1px rgba(0,0,0,0.23);
+				width: 70%;
+				display: block;
+				margin: auto;
+				}
+
+			.my-container {
+				min-height: 50px;
+				width: 100%;
+				background: #5e42a6;
+				border-radius: 10px;
+				display: grid;
+			    grid-template-columns: 1fr;
+				grid-template-rows: 25px auto auto;
+				grid-gap: 10px;
+				/*justify-items: center;*/
+				/*justify-content: center;*/
+				padding: 10px;
+				margin-top: 25px;
+				box-shadow: 8px 8px 8px 1px rgba(0,0,0,0.33), -8px 8px 8px 1px rgba(0,0,0,0.23);
+				color: white;
+				grid-template-areas:
+					"grid_header"
+					"grid_image"
+					"grid_content"
+			}
+
+			@media only screen and (min-width: 900px)  {
+				.my-container {
+					border-radius: 20px;
+					grid-gap: 0px;
+					padding: 20px;
+					grid-template-rows: auto auto;
+					grid-template-columns: 35% 65%;
+					grid-template-areas:
+					"grid_header	grid_header"
+					"grid_image		grid_content"
+				}
+
+				.item3 {
+					padding-top: 0px;
+					padding-left: 20px;
+				}
+
+				.border_rad {
+					width: 100%;
+				}
+
+				h3 {
+					font-size: 1.5em;	
+				}
+
+				.my-center {
+					width: 60%;
+				}
+			}
+		</style>
+		<!-- 
+		<style>
+			#border_rad {
+				border: 5px solid white;
+				padding: 0px; 
+				border-radius: 7%;
+				}
+		</style> -->
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Spyros Acheimastos</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="index.html#three">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Comau Dual Arm Robot</h1>
+							<div>
+								<h2>Parts Designed</h2>
+								<!-------------------------------------------------------------------------->
+								<div class="my-container">
+									<!-- Title -->
+									<div class="item1">
+										<h3>Custom Motherboard Holder</h3>
+									</div>
+
+									<!-- Image -->
+									<div class="item2">
+										<span>
+										<img src="images/Base.gif" alt="" class="border_rad"/>
+										</span>
+									</div>
+
+									<!-- Text -->
+									<div class="item3">
+										<p>
+											It is designed to be mounted on aluminum profile extrusion frames and
+											to fit both <u>ATX</u> and <u>micro-ATX</u> Motherboards. <br /><br />
+											It consists of: <br />
+											&bull; &nbsp; 1 x Holder for the I/O. <br />
+											&bull; &nbsp; 3 x Corner Holders. <br />
+											&bull; &nbsp; 4 x Raisers. <br /><br />
+											The parts were designed using <b>CATIA V5</b> and 3D printed using a commercial printer.
+										</p>
+									</div>
+								</div>
+								<!-------------------------------------------------------------------------->
+								<div class="my-container">
+									<!-- Title -->
+									<div class="item1">
+										<h3>Custom Gripper</h3>
+									</div>
+
+									<!-- Image -->
+									<div class="item2">
+										<img src="images/Gripper.gif" alt="" class="border_rad"/>
+									</div>
+
+									<!-- Text -->
+									<div class="item3">
+										<p>
+											Using the custom Flange, a <u>pneumatic gripper</u> is attached at the end of the robot's arm. <br /><br />
+	
+											The custom Jaws for the gripper, can hold RAM sticks with or without heat sinks. <br /><br />
+											
+											Also designed using <b>CATIA V5</b> and 3D printed using a commercial printer. <br />
+										</p>
+									</div>
+								</div>
+								<!-------------------------------------------------------------------------->
+								<div class="my-container">
+									<!-- Title -->
+									<div class="item1">
+										<h3>Final Assembly</h3>
+									</div>
+
+									<!-- Image -->
+									<div class="item2">
+										<img src="images/Product.gif" alt="" class="border_rad"/>
+									</div>
+
+									<!-- Text -->
+									<div class="item3">
+										<p>
+											Here you can see the final assembly inside CATIA V5 and compare it with the real life one. <br/><br/> 
+											<sub>(The real Motherboard was rotated due to its size)</sub>
+										</p>
+									</div>
+								</div>
+							</div>	
+							<!-------------------------------------------------------------------------->
+							<hr>
+							<div>
+								<h2>Programming the Robot</h2>
+								<p>
+									At first, the robot was <b>manually controlled</b> using the <i>robot pendant</i>. This was done in order to prove that 
+									the insertion of a RAM stick to the corresponding RAM slot on the Motherboard was possible.
+									Below you can see a video of that attempt.
+								</p>
+								<div class="my-center">
+									<video width="100%" autoplay muted loop controls>
+										<source src="images/robot_video_1.mp4" type="video/mp4">
+										Your browser does not support HTML video.
+								  	</video>
+								</div>
+								<p>
+									Then the robot was <b>programmed to follow the path</b> of picking up the RAM, inserting it into the Motherboard and returning to the initial position. 
+									This was achieved using the <i>robot pendant</i> and the <b>PDL2 Programming Language</b> of Comau.
+									Below you can see a video of that attempt.
+								</p>
+								<div class="my-center" >
+									<video width="100%" autoplay muted loop controls>
+										<source src="images/robot_video_2.mp4" type="video/mp4">
+										Your browser does not support HTML video.
+								  	</video>
+								</div>
+							</div>
+							<!-------------------------------------------------------------------------->
+							<hr>
+							<div>
+								<h2>Further Research</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt facilisis nibh, ac ultricies dolor pharetra et. Mauris molestie et arcu non iaculis. Nam feugiat urna massa, sed ultrices massa lobortis in. Sed eleifend sollicitudin sem a efficitur. Nulla augue nunc, tincidunt sit amet vehicula a, placerat sit amet risus. Proin sit amet convallis sapien. Vivamus ipsum nulla, venenatis id velit ac, rhoncus pellentesque neque. Nunc egestas tortor eu euismod facilisis. Duis et placerat arcu. Vestibulum risus augue, vestibulum eu posuere sit amet, luctus sed lorem. Pellentesque at posuere dolor. Aliquam luctus velit pretium, luctus sem sit amet, hendrerit est. Nunc mauris tortor, mattis nec pretium a, ultricies vel enim. Vestibulum tincidunt a felis sodales venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+Proin imperdiet bibendum volutpat. Nam quis arcu libero. Suspendisse sodales, dui interdum sagittis vehicula, ex tellus vulputate orci, sed interdum nisl nisl sed augue. Nulla at egestas nulla, non semper magna. Vivamus at nisl ante. Mauris sagittis molestie dui, sit amet rhoncus lacus cursus sit amet. Phasellus ullamcorper leo eget ante facilisis luctus.
+								</p>
+
+							</div>
+
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; <script>document.write(new Date().getFullYear())</script> Spyros Acheimastos</li>
+						<li>All Rights Reserved</li> 
+						<li><a href="index.html#three">Contact</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+			<!-- For Faster Default 
+			<script>
+				const video = document.querySelector("video");
+				video.playbackRate = 2;
+			</script>-->
+
+	</body>
+</html>

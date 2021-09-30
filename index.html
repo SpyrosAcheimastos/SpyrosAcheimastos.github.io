@@ -6,11 +6,24 @@
 -->
 <html>
 	<head>
-		<title>Hyperspace by HTML5 UP</title>
+		<title>Spyros Acheimastos - Portofolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		
+		<style>
+			/* Added hovering class for images*/
+			.hover {
+				transition-timing-function: ease-in-out;
+				transition: 0.4s;
+			}
+			.hover:hover {			
+				opacity: 0.5;
+			}
+		</style>
+
 	</head>
 	<body class="is-preload">
 
@@ -22,7 +35,7 @@
 							<li><a href="#intro">Welcome</a></li>
 							<li><a href="#one">Projects</a></li>
 							<li><a href="#two">What we do</a></li>
-							<li><a href="#three">Get in touch</a></li>
+							<li><a href="#three">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -48,13 +61,41 @@
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/etheras01.PNG" alt="" data-position="center center" /></a>
+							<a href="robot.html" class="image hover"><img src="images/Robot.PNG" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Comau Dual Arm Robot</h2>
+									<p>Designing and 3D printing parts for the pneumatic gripper of the robot. <br />
+										Programming the robot to pickup and install RAM sticks to a Motherboard, in order to be used in a Computer Assembly Line.<br /><br />
+
+										Research Project at the  <a href="https://lms.mech.upatras.gr/" target="_blank"><i>Laboratory for Manufacturing Systems & Automation</i></a> <br />
+										of the <a href="https://www.mead.upatras.gr/en/" target="_blank"><i>Department of Mechanical Engineering and Aeronautics</i></a>.</p>
+									<ul class="actions">
+										<li><a href="robot.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="cfd.html" class="image hover"><img src="images/pic03.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Computational Fluid Dynamics</h2>
+									<p>Code written in Matlab and Python to solve Partial Differential Equations.</p>
+									<ul class="actions">
+										<li><a href="cfd.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image hover"><img src="images/etheras01.PNG" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>UAV ethERAs</h2>
 									<p>Assisting with the design of a multipurpose Unmanned Aerial Vehicle. <br /><br />
-										Research Project at the  <a href="https://www.researchgate.net/lab/FML-Lab-Dionissios-P-Margaris"><i>Laboratory of Fluid Mechanics</i></a>  of the <br />  
-										<a href="https://www.mead.upatras.gr/en/"><i>Department of Mechanical Engineering and Aeronautics</i></a>.</p>
+										Research Project at the  <a href="https://www.researchgate.net/lab/FML-Lab-Dionissios-P-Margaris" target="_blank"><i>Laboratory of Fluid Mechanics</i></a>  of the <br />  
+										<a href="https://www.mead.upatras.gr/en/" target="_blank"><i>Department of Mechanical Engineering and Aeronautics</i></a>.</p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -62,7 +103,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/vortex_pressure.jpg" alt="" data-position="top center" /></a>
+							<a href="#" class="image hover"><img src="images/vortex_pressure.jpg" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Diploma Project</h2>
@@ -82,22 +123,10 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image hover"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Diploma Thesis</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ultricies aliquam</h2>
 									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
@@ -153,7 +182,7 @@
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
-							<h2>Get in touch</h2>
+							<h2>Contact</h2>
 							<!-- <p>Maybe I can add some text here.</p> -->
 							<div class="split style1">
 								<section>
@@ -165,7 +194,7 @@
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
-												<li><a href="https://github.com/spyraxeim" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://github.com/SpyrosAcheimastos" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 												<li><a href="https://www.linkedin.com/in/acheimastos/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
@@ -178,13 +207,15 @@
 			</div>
 
 		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+		<footer id="footer" class="wrapper alt">
+			<div class="inner">
+				<ul class="menu">
+					<li>&copy; <script>document.write(new Date().getFullYear())</script> Spyros Acheimastos</li>
+					<li>All Rights Reserved</li> 
+					<li><a href="index.html#three">Contact</a></li>
+				</ul>
+			</div>
+		</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
