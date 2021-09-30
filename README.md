@@ -1,5 +1,5 @@
 # My Portofolio
-This is a short Portofolio of mine, showcasing some of the projects I have worked on.
+This is a short Portofolio of mine, showcasing some of the projects I have worked on.\\
 It will include Design, Simulation and Code.
 
 ## Projects
@@ -9,7 +9,7 @@ It will include Design, Simulation and Code.
 - [X] Diploma Project
 - [ ] Diploma Thesis
 
-What need to be done:
+What else needs to be done:
 - Last section of robot
 - Make it simpler, remove some text.
 - Make Gifs slower or like a slideshow  of pictures?
